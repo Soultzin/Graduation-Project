@@ -8,8 +8,10 @@ body {
     border-style: ridge;
     border-width: 2px;
     border-color: black;
-    margin-left: 20%;
-    
-    
+    margin-left: 20%;  
 }
-
+#login{
+    opacity: 0.5;
+    height: 100%;
+    width: 20%;
+}
