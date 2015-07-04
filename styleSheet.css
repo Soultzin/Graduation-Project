@@ -1,6 +1,15 @@
 body {
     background: url(http://i.imgur.com/vv884u3.jpg) no-repeat center center fixed;
-    background-size: 45% 100%;
-    background-color: #6bbcff
+    background-size: 45% 90%;
+    background-color: #6bbcff;
+}
+#header {
+    background-color: white;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 20%;
+    
+    
 }
 
