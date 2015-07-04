@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: url(http://imgur.com/wzWD2yK) no-repeat center center fixed;
     background-size: cover;
@@ -5,3 +6,12 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 }
+=======
+body{
+    background: url(http://www.blastr.com/sites/blastr/files/gameofthronesMartin.jpg) no-repeat center center fixed;
+ background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+}
+>>>>>>> origin/master
