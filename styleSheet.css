@@ -1,9 +1,6 @@
 body {
-    background: url(http://i.imgur.com/wzWD2yK.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	height: 2000px;
-	width: 1800px;
+    background: url(http://i.imgur.com/vv884u3.jpg) no-repeat center center fixed;
+    background-size: 45% 100%;
+    background-color: #6bbcff
 }
 
