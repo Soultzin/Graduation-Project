@@ -1,9 +1,7 @@
 body {
     background: url(https://localtvwnep.files.wordpress.com/2014/02/abinton-heights-high-school.jpg?w=770) no-repeat center center fixed;
-    background-size: 90% 90%;
+    background-size: 100% 100%;
     background-color: #6bbcff;
-    margin-top: 10%;
-    margin-left:10%
 }
 #header {
     background-color: white;
