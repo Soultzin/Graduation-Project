@@ -6,9 +6,7 @@ body {
 #login{
     margin-right: 37.5%;
     margin-left: 37.5%;
-    top: 12em;
-    height: 30em;
-    width: 25%;
+    margin-top: 10%;
     background-color: white;
     border-radius: 10px;
     border-width: 5px;
