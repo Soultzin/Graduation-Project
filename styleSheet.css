@@ -6,10 +6,10 @@ body {
     margin-right: 37.5%;
     margin-left: 37.5%;
     top: 12em;
-    height: 23em;
+    height: 25em;
     width: 25%;
     background-color: white;
-    border-style: ridge;
+    border-radius: 10px;
     border-width: 5px;
     border-color: navy;
     opacity: 0.8;
