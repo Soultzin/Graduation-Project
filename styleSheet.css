@@ -1,29 +1,14 @@
 body {
-    background: url(https://localtvwnep.files.wordpress.com/2014/02/abinton-heights-high-school.jpg?w=770) no-repeat center center fixed;
+    background: url(https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/11212717_924385244317884_7969368815854396110_o.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
-    background-color: #6bbcff;
-}
-#header {
-    background-color: white;
-    border-style: ridge;
-    border-width: 2px;
-    border-color: black;
-    margin-left: 20%;  
-    margin-top: 0%;
-    margin-right:0%;
-    position: fixed;
-    clear: both;
-    float: right;
-    width: 80%;
 }
 #login{
-    margin-left:0%;
-    margin-top:0%;
-    opacity: 0.5;
-    height: 100%;
-    width: 19.5%;
-    background-color: dimgray;
-    color: white;
-    position: fixed;
-    float: left;
+    height: 50%;
+    width: 25%;
+    background-color: white;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: navy;
+    margin: 0 auto;
+    position: static;
 }
