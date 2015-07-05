@@ -13,4 +13,7 @@ Lead Devs: Michael Merriman
            Garrett Mackay
 Community Support:
            Tom Rose
+           Shane O'Malley
+           Corey Colarossi
+           
            
