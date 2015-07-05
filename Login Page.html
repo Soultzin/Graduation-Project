@@ -8,7 +8,7 @@
 	<meta name="author" content="">
 
 	<title>>Abington Heights High School Login Page</title>
-
+	<link type="text/css" rel="stylesheet" href="styleSheet.css"/>
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
@@ -24,13 +24,17 @@
 	<form role="form" class="form-signin">
 		<h2 class="form-signin-heading">Login</h2>
 		<label for="userid" class="sr-only">Username</label>
+		<br>
 		<input type="email" id="username" name="username" placeholder="Username" class="form-control" autofocus>
 		<label for="password" class="sr-only">Password</label>
+		<br>
 		<input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
 		<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
-
+		<br>
 		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		<br>
 		<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+		<br>
 	</form>
 </div> <!-- /container -->
 </body>
