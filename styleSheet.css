@@ -9,6 +9,7 @@ body {
     border-width: 2px;
     border-color: black;
     margin-left: 20%;  
+    float: right;
 }
 #login{
     opacity: 0.5;
