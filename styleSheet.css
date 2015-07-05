@@ -9,11 +9,17 @@ body {
     border-width: 2px;
     border-color: black;
     margin-left: 20%;  
+    margin-top: 0%;
+    margin-right:0%;
+    position: relative;
 }
 #login{
+    margin-left:0%;
+    margin-top:0%;
     opacity: 0.5;
     height: 100%;
-    width: 19.9%;
+    width: 19.5%;
     background-color: dimgray;
-    color: white
+    color: white;
+    position: fixed;
 }
