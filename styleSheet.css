@@ -11,7 +11,10 @@ body {
     margin-left: 20%;  
     margin-top: 0%;
     margin-right:0%;
-    position: relative;
+    position: fixed;
+    clear: both;
+    float: right;
+    width: 80%;
 }
 #login{
     margin-left:0%;
@@ -22,4 +25,5 @@ body {
     background-color: dimgray;
     color: white;
     position: fixed;
+    float: left;
 }
