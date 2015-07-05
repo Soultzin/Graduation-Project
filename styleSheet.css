@@ -1,4 +1,5 @@
 body {
+    top:0;
     background: url(https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/11212717_924385244317884_7969368815854396110_o.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
 }
@@ -6,7 +7,7 @@ body {
     margin-right: 37.5%;
     margin-left: 37.5%;
     top: 12em;
-    height: 25em;
+    height: 30em;
     width: 25%;
     background-color: white;
     border-radius: 10px;
@@ -14,4 +15,12 @@ body {
     border-color: navy;
     opacity: 0.8;
     position: relative;
+}
+#LoginText{
+    margin-right: 40%;
+    margin-left: 40%;
+}
+#AHSDpic{
+    margin-right: 28%;
+    margin-left: 28%;
 }
