@@ -69,6 +69,7 @@ body {
 	border-style: groove;
 	border-width: 1px;
 	border-radius: 0px;
+	width:100%
 }
 #EditProfile{
 	margin-left:50%;
