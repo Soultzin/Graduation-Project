@@ -18,8 +18,11 @@
 }
 
 .navbar-custom {
-	background-color: midnightblue;
+	background-color: #00004C;
 	color: white;
+}
+.navbar-custom .navbar-nav>li:hover {
+	background-color: lightgray;
 }
 .navbar-custom .navbar-nav>li>a {
   color: white;
@@ -32,7 +35,7 @@
 }
 .navbar-custom .navbar-brand:hover {
 	color: royalblue;
-	background-color: white;
+	background-color: lightgray;
 }
 #Goals{
 	background-color:gray;
