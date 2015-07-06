@@ -5,6 +5,7 @@ body {
 }
 
 .container{
+    top:0;
     margin-right: 37.5%;
     margin-left: 50%;
     margin-top: 10%;
@@ -17,6 +18,7 @@ body {
     width: 20%;
 }
 #AHSDpic{
+    top:0;
     height: auto;
     width: auto;
 }
