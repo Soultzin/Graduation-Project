@@ -16,6 +16,7 @@
     color:white;
 	text-align: center;
 }
+
 .navbar-custom {
 	background-color: navy;
 	color: white;
@@ -23,3 +24,12 @@
 .container-fluid {
 	color: white;
 }
+
+#Goals{
+	background-color:gray;
+    height:1000px;
+	width:79%;
+	margin-left:20.5%;
+	border-radius: 10px;
+}
+
