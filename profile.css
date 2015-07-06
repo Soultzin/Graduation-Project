@@ -38,23 +38,37 @@
 	background-color: lightgray;
 }
 #Goals{
-	background-color:gray;
+	background-color:white;
     height:1000px;
 	width:79%;
 	margin-left:20.5%;
 	border-radius: 10px;
 }
-<<<<<<< HEAD
 .progress{
     margin-left:0.5%;
 	margin-right:0.5%;
 }
 #GoalLabel{
 	margin-left:0.5%;
-	color:White;
+	color:Black;
 }
 #Goal1{
-	color:white;
+	color:Black;
 	margin-left:0.5%;
 }
-
+body {
+    background: url(http://i.imgur.com/pl4LzGd.jpg?1) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+#Profilebar{
+	background-color: white;
+}
+#welcome{
+	color:Black;
+}
+#ProfilePic{
+	border-color: black;
+	border-style: groove;
+	border-width: 1px;
+	border-radius: 0px;
+}
