@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <head>
+  <!--User will be replaced by the user's actual name-->
 	<title>User's Profile</title>
+  <!--CSS Link-->
 	<link type="text/css" rel="stylesheet" href="profile.css"/>
+  <!--BootStrap Link-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 
 <body>
-	<!--Nav Bar-->
+	<!--Top Nav Bar-->
 	<nav class="navbar navbar-custom">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,18 +58,25 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
 	<div id="Profilebar">
 		<img id="ProfilePic" src="http://blogs.kqed.org/education/files/2011/06/facebook_blank_face3-480x360.jpeg">
 		<h1 id="welcome">Welcome User</h1>
+    
+    <div class="btn-group">
+      <button id="EditProfile" type="button" class="btn btn-primary">Edit Profile</button>
+    </div>
 	</div>
+  
   <div id="Goals">
     <br>
     <div id="GoalLabel"><h3>Goals:</h3></div>
     <br>
     <div id="Goal1"><h5>Example Goal: Get Straight A's <br> Steps: <br>- Do All Homework <br>- Do All Extra Credit <br>- Use Agenda Book <br>- Collaberate With Teachers</h5></div>
     <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-        60%
+      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+        100%
       </div>
     </div>
   </div>
