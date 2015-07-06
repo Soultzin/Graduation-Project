@@ -21,10 +21,12 @@
 	background-color: navy;
 	color: white;
 }
-.container-fluid {
+.navbar-custom .navbar-nav>li>a {
+  color: white;
+}
+.color-me {
 	color: white;
 }
-
 #Goals{
 	background-color:gray;
     height:1000px;
