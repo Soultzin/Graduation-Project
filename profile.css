@@ -16,3 +16,10 @@
     color:white;
 	text-align: center;
 }
+.navbar-custom {
+	background-color: navy;
+	color: white;
+}
+.container-fluid {
+	color: white;
+}
