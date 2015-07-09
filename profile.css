@@ -1,13 +1,13 @@
 #ProfilePic{
 	height:25%;
-	width:100%;
     float:left;
     top:0;
-	border-radius: 10px;
+	border-color: black;
+	border-style: groove;
+	border-width: 1px;
 }
 #Profilebar{
 	height: 1000px;
-	width:20%;
 	float:left;
 	background-color: gray;
 	border-radius: 10px;
@@ -16,7 +16,6 @@
     color:white;
 	text-align: center;
 }
-
 .navbar-custom {
 	background-color: #00004C;
 	color: white;
@@ -33,15 +32,11 @@
 .navbar-custom .navbar-brand {
 	color: white;
 }
-
 #Goals{
 	background-color:white;
     height:1000px;
-	width:79%;
-	margin-left:20.5%;
 	border-radius: 10px;
 }
-
 .progress{
     margin-left:0.5%;
 	margin-right:0.5%;
@@ -63,15 +58,4 @@ body {
 }
 #welcome{
 	color:Black;
-}
-#ProfilePic{
-	border-color: black;
-	border-style: groove;
-	border-width: 1px;
-	border-radius: 0px;
-	width:100%
-}
-#EditProfile{
-	margin-left:50%;
-	width: 300%;
 }
