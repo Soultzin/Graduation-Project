@@ -4,13 +4,9 @@ body {
 }
 
 .container{
-    margin-top: 10%;
     background-color: white;
+    margin-top: 10%;
     border-radius: 10px;
-    border-width: 5px;
-    border-color: navy;
-    position: relative;
-    height: 50%;
 }
 
 .form-signin {
