@@ -1,22 +1,23 @@
 body {
     background: url(https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/t31.0-8/11212717_924385244317884_7969368815854396110_o.jpg) no-repeat center center fixed;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .container{
-    margin-top: 10%;
-    background-color: white;
+   margin-top: 5%;
+   background-color: white;
     border-radius: 10px;
     border-width: 5px;
     border-color: navy;
     position: relative;
-    height: 50%;
+    
 }
 
 .form-signin {
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
+
 }
 
 .form-signin .form-signin-heading,
