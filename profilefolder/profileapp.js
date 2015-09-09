@@ -1,5 +1,11 @@
 $(document).ready(function(){
     $("#button").click(function(){
-        $("#GoalLabel").append("New Goal: <input type='text'><br><button class='btn btn-primary' id>Create</button>");
+        $("#CGoal").detatch;
+    });
+    $("#button").click(function(){
+        $("#GoalLabel").append("<div id = 'CGoal'> New Goal: <input type='text'><br><button id = 'Create' class='btn btn-primary'>Create</button> </div>");
+    });
+    $("#Create").click(function(){
+        $("#CGoal").detatch;
     });
 });
