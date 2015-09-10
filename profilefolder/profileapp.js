@@ -1,7 +1,16 @@
 $(document).ready(function(){
 
-    $("#button").click(function(){
-        $("#GoalLabel").append("<div id = 'CGoal'> New Goal: <input type='text'><br><button id = 'Create' class='btn btn-primary'>Create</button> </div>");
-            $("#button").prop("disabled",true);
-    });
+
 });
+function createGoal()
+{
+    $("#GoalLabel").append("<div id = 'CGoal'> New Goal: <input type='text'><br><button id = 'Create' class='btn btn-primary' onclick='saveGoal();'>Create</button> </div>");
+    $('#butGoal').removeAttr('onClick');
+
+}
+
+function saveGoal()
+{
+    alert("saveGoal");
+    $('#butGoal').attr('onclick','createGoal()');
+}
