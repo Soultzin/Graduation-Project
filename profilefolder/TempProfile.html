@@ -6,9 +6,10 @@
   <!--CSS Link-->
 	<link type="text/css" rel="stylesheet" href="profile.css"/>
   <!--BootStrap Link-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href= "https://code.jquery.com/ui/1.10.4/themes/blitzer/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <reference path="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="profileapp.js"></script>
 
 </head>
@@ -43,6 +44,26 @@
 </nav>
 <!--Navbar Ends-->
 
+  <div class="modal fade" id="createGoalDialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">New Goal</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <input type='text'><br><button id = 'Create' class='btn btn-primary' onclick='saveGoal();'>Create</button>
+          <h5>Example Goal: Get Straight A's <br> Steps: <br>- Do All Homework <br>- Do All Extra Credit <br>- Use Agenda Book <br>- Collaborate With Teachers</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="saveGoal();">Create</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
   <div id="Profilebar" style="padding-right: 25px;">
       <!--Profile Picture-->
   		<img id="ProfilePic" src="http://blogs.kqed.org/education/files/2011/06/facebook_blank_face3-480x360.jpeg">
@@ -53,11 +74,8 @@
       <div id="Goals">
         <br>
         <!--Starts Goals With Label-->
-        <div id="GoalLabel"><h3>Goals:</h3></div>
-        <div id="NewGoal"><h3></h3></div>
         <br>
         <!--Example Goal, Just to see what a real goal would look like in the end product-->
-        <div id="Goal1"><h5>Example Goal: Get Straight A's <br> Steps: <br>- Do All Homework <br>- Do All Extra Credit <br>- Use Agenda Book <br>- Collaborate With Teachers</h5></div>
         <!--Progress Bar- For Goal Steps-->
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;" id="thebar"><!--Width is the percentage filled inside the full bar-->
