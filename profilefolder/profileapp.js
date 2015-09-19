@@ -11,7 +11,7 @@ function createGoal()
 
 function saveGoal()
 {
-    alert("saveGoal");
+    alert("Your Goal was saved");
     $('#createGoalDialog').modal('hide');
 
 }
