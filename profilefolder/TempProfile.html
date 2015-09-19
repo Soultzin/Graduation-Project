@@ -33,7 +33,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active" id="nav-CreateGoal"><a href="#" onclick="createGoal();" id="butGoal">Add Goals <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Edit Goals</a></li>
       </ul>
       </form>
       <ul class="nav navbar-nav navbar-right">
@@ -52,9 +51,15 @@
           <h4 class="modal-title">New Goal</h4>
         </div>
         <div class="modal-body">
+<<<<<<< HEAD
           <p>
             <input type='text'><br><br><button id = 'Create' class='btn btn-primary' onclick='saveGoal();'>Create</button>
           <h5>Example Goal: Get Straight A's <br> Steps: <br>- Do All Homework <br>- Do All Extra Credit <br>- Use Agenda Book <br>- Collaborate With Teachers</h5>
+=======
+          
+            <input type='text'><br>
+          
+>>>>>>> origin/master
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -69,6 +74,10 @@
   		<img id="ProfilePic" src="http://blogs.kqed.org/education/files/2011/06/facebook_blank_face3-480x360.jpeg">
       <!--User Greeting, User is the User's Name-->
   		<h1 id="welcome">Welcome User</h1>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">TEMPORARY</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">TEMPORARY</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">TEMPORARY</button>
+
   	</div> <!--Profile Bar Ends-->
     <!--Goal Main Div Starts[Right, Large Bar]-->
       <div id="Goals">
@@ -77,13 +86,75 @@
 
         <div id="GoalLabel"><h3>Goals:</h3></div>
         <div id="NewGoal"></div>
+<<<<<<< HEAD
         <br>
+=======
+        
+>>>>>>> origin/master
         <!--Example Goal, Just to see what a real goal would look like in the end product-->
+        
+        
+        
+        
+        <table width="66%" border="1px">
+            <thead>
+                <tr>
+                    <th colspan="3"><center><img id= "removeButton" src="http://i795.photobucket.com/albums/yy232/DaedalusIcarusHelios/closeX.png" onclick="removeGoal();">Steps:Get Straight A's</center></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Step 1:</td>
+                    <td>Do All Homework</td>
+                    <td>DUE BLEHEHEH</td>
+                </tr>
+                
+                <tr>
+                    <td>Step 2:</td>
+                    <td>Dracula</td>
+                    <td>DUE BLEHEHEH</td>
+                </tr>
+                
+                <tr>
+                    <td>Step 3:</td>
+                    <td>Bride of Frankenstein</td>
+                    <td>DUE BLEHEHEH</td>
+                </tr>
+                <tr>
+                    <td>Step 4:</td>
+                    <td>Bride of Frankenstein</td>
+                    <td>DUE BLEHEHEH</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        
         <!--Progress Bar- For Goal Steps-->
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;" id="thebar"><!--Width is the percentage filled inside the full bar-->
             100% <!--The Number Inside the Progress Bar-->
           </div>
+        </div>
+        
+        <br>
+        <br>
+       
+        
+        <div id = "Goal1">
+        <img id= "removeButton" src="http://i795.photobucket.com/albums/yy232/DaedalusIcarusHelios/closeX.png" onclick="removeGoal();">
+        &nbsp; Example Goal: Get Straight A's
+                Steps:
+        <div id = "Subgoal1">- Do All Homework </div>
+        <div id = "Subgoal2">- Do All Extra Credit </div>
+        <div id = "Subgoal3">- Use Agenda Book </div>
+        <div id = "Subgoal4">- Collaborate With Teachers</div>
+        <br>
+        <!--Progress Bar- For Goal Steps-->
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;" id="thebar"><!--Width is the percentage filled inside the full bar-->
+            100% <!--The Number Inside the Progress Bar-->
+          </div>
+        </div>
         </div>
       </div>
 	</div>

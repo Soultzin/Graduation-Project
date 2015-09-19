@@ -15,3 +15,7 @@ function saveGoal()
     $('#createGoalDialog').modal('hide');
 
 }
+function removeGoal()
+{
+    $('#Goal1').remove();
+}

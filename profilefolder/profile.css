@@ -61,3 +61,12 @@ body {
 #welcome{
 	color:Black;
 }
+#GoalTable{
+	border-width: 2px;
+	border-color: black;
+	border-style: ridge;
+}
+#removeButton{
+    position: relative;
+    left: -285px;
+}
