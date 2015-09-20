@@ -76,7 +76,11 @@ body {
 	border-width: 2px;
 	border-color: black;
 }
-#removeSub1{
-	height: 20px;
-	width: 20px;
+#Check1{
+	position: relative;
+	height: 14px;
+	width: 14px;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
 }
