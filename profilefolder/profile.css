@@ -68,5 +68,6 @@ body {
 }
 #removeButton{
     position: relative;
-    left: -285px;
+    left: -288px;
+	bottom: 1px;
 }
