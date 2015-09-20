@@ -26,3 +26,6 @@ function FillBilling(f) {
     f.billingcity.value = f.shippingcity.value;
   }
 }
+function removeSub(){
+  
+}
