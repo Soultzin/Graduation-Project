@@ -23,3 +23,6 @@ function removeGoal()
     $('#Goal1').remove();
 }
 
+function removeSub(){
+  
+}

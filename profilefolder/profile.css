@@ -71,3 +71,16 @@ body {
     left: -288px;
 	bottom: 1px;
 }
+.progress{
+	border-style: ridge;
+	border-width: 2px;
+	border-color: black;
+}
+#Check1{
+	position: relative;
+	height: 14px;
+	width: 14px;
+	top: 1px;
+	bottom: 1px;
+	left: 1px;
+}
