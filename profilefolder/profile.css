@@ -71,3 +71,12 @@ body {
     left: -288px;
 	bottom: 1px;
 }
+.progress{
+	border-style: ridge;
+	border-width: 2px;
+	border-color: black;
+}
+#removeSub1{
+	height: 20px;
+	width: 20px;
+}
