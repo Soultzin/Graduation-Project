@@ -2,20 +2,23 @@
 	height:25%;
     float:left;
     top:0;
+	margin-left: 15%;
 	border-color: black;
-	border-style: groove;
-	border-width: 1px;
+	border-style: solid;
+	border-bottom-width: 1px;
 }
 #Profilebar{
 	height: 1000px;
 	float:left;
-	background-color: gray;
-	border-radius: 10px;
-	padding: 10px
-	
+	padding: 10px;
+	background-color: whitesmoke;
+	border-color: black;
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
 }
 #welcome{
-    color:white;
+    color:black;
 	text-align: center;
 }
 .navbar-custom {
@@ -54,12 +57,6 @@
 body {
     background: url(http://i.imgur.com/pl4LzGd.jpg?1) no-repeat center center fixed;
     background-size: 100% 100%;
-}
-#Profilebar{
-	background-color: white;
-}
-#welcome{
-	color:Black;
 }
 #GoalTable{
 	border-width: 2px;
